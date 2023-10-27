@@ -10,7 +10,7 @@ LDFLAGS := `root-config --libs` -L external/lib -L external/lib64
 
 all: main
 
-main: main.cxx src/UMEA.o
+main: main.cxx src/UMEA.o src/Uppsala.o
 	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
 
 src/%.o: src/%.cxx
