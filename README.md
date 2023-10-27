@@ -38,4 +38,8 @@ Instructions on how the Uppsala.cxx, UMEA.cxx, and Lund.cxx generate plots are a
 
 # How to use program
 
-The program is simple to use. To generate the plots all that is required is to run 'make' in the terminal and be sure to be in the same directory as the MakeFile.
+The program is simple to use. Go into the src/ directory, go into root and type '.L FileName.cxx'. Choose which city you would like to have a generated plot for (Uppsala.cxx, UMEA.cxx or Lund.cxx). Uppsala.cxx generates a plot for Counts vs Temperature, UMEA.cxx generates a plot for Average Temperature Per Year, and Lund.cxx generates a plot for Average Temperature Per Day for the year 1986 (year of Chernobyl accident).
+
+# Directory to ignore
+
+Ignore the directory 'Backupfiles' as it just includes files for the developers which were scrapped from the final work.

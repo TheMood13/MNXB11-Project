@@ -1,0 +1,10 @@
+Wednesday 25/10/2023:
+
+Created a simple plan; Step 1: Read CSV files; Step 2: Clean the data; Step 3: Plot the data; Step 4: Write the report
+Repository was created before hand, and each group member forked the repository and git cloned to local computer.
+
+Thursday 26/10/2023:
+Decided what types of plots to create and spent time researching how to make them. Then towards the end producing the plots for the Uppsala and Umeå data.
+
+Friday 27/10/2023:
+Finished the third plot for the Lund data, as well as tweaked the other two plots. The README.me file was also made with intstructions on how to use the code, the report was written, and the code was tested to work.
