@@ -6,6 +6,11 @@ In this project, the program takes data from the Swedish Meteorological and Hydr
 
 ## Reading Data files
 
+The first step is to clean the data as to be useable, and this is done by using the BASH script 'smhicleaner.sh.solution' found in the datasets/ directory in the repository. The code to run in the terminal is as follows:
+```sh
+./smhicleaner.sh.solution DataSet.csv
+```
+
 At the start of the Uppsala.cxx, UMEA.cxx, Lund.cxx files, the functions read the .csv of the data. It does it as follows:
 
 ```cpp
