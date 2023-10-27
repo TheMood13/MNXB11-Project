@@ -1,4 +1,4 @@
-#include "../include/Uppsala.h"
+#include "Uppsala.h"
 
 void Uppsala() {
     // Defining our variables, and vectors
