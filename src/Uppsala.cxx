@@ -1,4 +1,4 @@
-#include "Uppsala.h"
+#include "../include/Uppsala.h"
 
 void Uppsala() {
     // Defining our variables, and vectors
@@ -25,8 +25,9 @@ void Uppsala() {
     }
 
     // Loops through DataStore and appends specific elements to their respective vectors.
+    int StoreSize = DataStore.size();
     int i{0};
-    while (i < DataStore.size()/4) {
+    while (i < StoreSize/4) {
         Date.push_back(DataStore[4*i]);
         Time.push_back(DataStore[4*i + 1]);
         auto Temp = atof(DataStore[4*i + 2].c_str());
@@ -39,8 +40,9 @@ void Uppsala() {
     // with a bin size of 50, and x-axis bounds [-20, 30].
     TH1D* graph = new TH1D("graph", "Count vs Temperature; T (C); Data Count", 50, -20, 30);
 
+    int DateSize = Date.size();
     // Filling histogram with values from vector Air_Temp
-    for (int i=0; i < Date.size(); i++) {
+    for (int i=0; i < DateSize; i++) {
         graph->Fill(Air_Temp[i]);
     }
 
@@ -49,4 +51,6 @@ void Uppsala() {
     graph->SetMarkerStyle(20);
     gStyle->SetOptStat(0); // Removes the histogram info
     graph->Draw();
+
+    c1 = c1; // Complained that c2 was never used...
 };

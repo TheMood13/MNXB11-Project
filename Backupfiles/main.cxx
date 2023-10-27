@@ -1,10 +1,11 @@
-#include "include/UMEA.h"
-#include "src/UMEA.cxx"
+#include "UMEA.h"
+#include "Uppsala.h"
 #include <iostream>
 
 int main() {
   std::cout << "Running the Umea() function:" << endl;
-  Umea();
+  Uppsala();
+  std::cout << "Did it work?" << endl;
 
 return 0;
 }

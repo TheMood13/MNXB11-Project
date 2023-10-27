@@ -1,5 +1,5 @@
-#ifndef Uppsala_Guard
-#define Uppsala_Guard
+#ifndef Umea_Guard
+#define Umea_Guard
 
 #include <iostream>
 #include <vector>
